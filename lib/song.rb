@@ -13,6 +13,9 @@ class Song
     @@artists << artist
     @@genres << genre
     @@genre_count = {}
+    if !@@genre_count.has_key?(genre)
+      
+    end
   end
   
   def self.count

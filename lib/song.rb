@@ -14,5 +14,7 @@ class Song
     @@genres << genre
   end
   
+  def count
+  end
   
 end
